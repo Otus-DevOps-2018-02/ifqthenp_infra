@@ -1,6 +1,6 @@
 terraform {
   backend "gcs" {
     bucket = "ifqthenp_tfstate_bucket"
-    prefix = "terraform/prod"
+    prefix = "terraform/stage"
   }
 }
